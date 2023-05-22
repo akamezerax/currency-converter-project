@@ -1,0 +1,131 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    font-family: "Roboto", sans-serif;
+    color: #ffffff;
+}
+
+body {
+    background-color: #121212;
+}
+
+.container {
+    width: 375px;
+    background-color: #1f1b24;
+    margin: 0 auto;
+    margin-top: 35px;
+}
+
+header {
+    background-color: #3700b3;
+    height: 66px;
+}
+
+h1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 18px;
+    text-align: center;
+    padding-top: 25px;
+}
+
+main {
+    padding: 24px;
+}
+
+label {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+option {
+    color: #000000;
+}
+
+select {
+    color: #000000;
+    background: #FFFFFF;
+    border: 1px solid #BBBBBB;
+    border-radius: 4px;
+    height: 48px;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    appearance: none;
+    outline: none;
+    padding: 16px;
+    box-shadow: 2px 2px 5px rgba(233, 225, 225, 0.15);
+    margin-top: 6px;
+    margin-bottom: 24px;
+}
+
+input {
+    color: #000000;
+    background: #FFFFFF;
+    border: 1px solid #BBBBBB;
+    border-radius: 4px;
+    height: 48px;
+    display: block;
+    width: 100%;
+    outline: none;
+    padding: 16px;
+    box-shadow: 2px 2px 5px rgba(233, 225, 225, 0.15);
+    font-size: 18px;
+}
+
+button {
+    color: #ffffff;
+    background: #3700b3;
+    border-radius: 25px;
+    height: 48px;
+    width: 100%;
+    cursor: pointer;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    border: none;
+    margin-top: 24px;
+    margin-bottom: 36px;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+button:active {
+    opacity: 0.7;
+}
+
+section {
+    border: 1px solid #3700b3;
+    border-radius: 4px;
+}
+
+.currency-container {
+    text-align: center;
+    padding: 10px;
+}
+
+.currency-name {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.currency-value {
+    color: #bb86fc;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.arrow-img {
+    margin: 15px auto;
+    display: block;
+}
