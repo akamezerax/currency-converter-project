@@ -9,18 +9,25 @@
 
 body {
     background-color: #121212;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: -100vh;
 }
 
 .container {
-    width: 375px;
+    width: 800px;
     background-color: #1f1b24;
-    margin: 0 auto;
-    margin-top: 35px;
+    border-radius: 15px;
 }
 
 header {
     background-color: #3700b3;
     height: 66px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
 }
 
 h1 {
@@ -28,8 +35,6 @@ h1 {
     font-weight: 400;
     font-size: 24px;
     line-height: 18px;
-    text-align: center;
-    padding-top: 25px;
 }
 
 main {
@@ -78,12 +83,18 @@ input {
     font-size: 18px;
 }
 
+.botaozin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 button {
     color: #ffffff;
     background: #3700b3;
     border-radius: 25px;
     height: 48px;
-    width: 100%;
+    width: 200px;
     cursor: pointer;
     font-style: normal;
     font-weight: 700;
@@ -105,11 +116,18 @@ button:active {
 section {
     border: 1px solid #3700b3;
     border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
 }
 
 .currency-container {
-    text-align: center;
     padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
 }
 
 .currency-name {
@@ -126,6 +144,4 @@ section {
 }
 
 .arrow-img {
-    margin: 15px auto;
-    display: block;
 }
